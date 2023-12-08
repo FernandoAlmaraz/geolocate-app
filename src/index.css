@@ -11,3 +11,40 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+h1{
+  font-family: 'GFS Didot', serif;
+  color: #1d7188;
+  font-size: 30px;
+  font-weight: 400;
+  letter-spacing: 8px;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: 0.3s;
+  font-style:didot;
+}
+h1:hover{
+  color: white;
+  text-shadow: 0 0 15px #03e9f0, 0 0 15px #03e9f4 ;
+  transform: scale(1.3);
+}
+p{
+  font-family: 'GFS Didot', serif;
+  color: #4dc4e6;
+  font-size: 30px;
+  font-weight: 400;
+  letter-spacing: 8px;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: 0.3s;
+  font-style:didot;
+}
+p:hover{
+  color: white;
+  text-shadow: 0 0 15px #46f9ff, 0 0 15px #6eecf3 ;
+  transform: scale(1.3);
+}
+p.autor{
+  font-family: 'GFS Didot', serif;
+  color:#282c34;
+}
